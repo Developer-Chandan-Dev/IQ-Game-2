@@ -33,7 +33,9 @@ table tr td{
     text-align: center;
     font-size: 24px;
 }
-
+table tr td:hover{
+    background: gray;
+}
 button{
     padding: 10px 20px;
     cursor: pointer;
@@ -42,4 +44,7 @@ button{
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: 20px;
+}
+button:hover{
+    background: crimson;
 }
